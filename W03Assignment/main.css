@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+header {
+  background-color: #6495ED;
+  font-family: Lora;
+}
+
+header a {
+  color: #FAEBD7;
+  text-decoration: none;
+  right: 100px;
+  padding: 0px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #FAEBD7;
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+main {
+  background-color: #FAEBD7;
+}
+
+nav li {
+  padding: 10px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+nav a:visited {
+  color: #FAEBD7;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: #DEB887;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+p a:visited {
+  color: #6495ED;
+  text-decoration: none;
+}
+
+p a:active {
+  color: #DEB887;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+h2 a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+h2 a:active {
+  color: #DEB887;
+}
+
+h2 a:hover {
+  color: #6495ED;
+  text-decoration: underline;
+}
+
+article {
+  background-color: white;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+article .post-date {
+  margin-left: 30px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+figure {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* sm screen @media */
+@media only screen and (min-width: 551px) {
+  header {
+    width: auto;
+    height: 200px;
+    top: 10px;
+    bottom: 20px;
+  }
+
+  article {
+    margin-top: 40px;
+    width: 400px;
+    height: auto;
+    margin-left: 150px;
+  }
+
+  header h1 {
+    margin-right: 30px;
+    text-align: right;
+  }
+}
+
+/* lg screen @media*/
+@media only screen and (min-width: 960px) {
+  header {
+    width: 260px;
+    height: 1490px;
+    position: absolute;
+    top: 0px;
+    bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  header h1 {
+    margin-top: 0px;
+    margin-right: 30px;
+    text-align: right;
+  }
+
+  nav li {
+    padding: 10px;
+    margin-right: 30px;
+    text-align: right;
+  }
+
+  header ul li {
+    font-size: 20px;
+  }
+
+  article {
+    margin: 60px;
+    position: relative;
+    left: 300px;
+    right: 340px;
+  }
+
+  section {
+    margin: 10px;
+    width: 400px;
+    height: auto;
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

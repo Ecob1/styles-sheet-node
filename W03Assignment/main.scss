@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+//Styles variables
+$highlight-color: #6495ED;
+$white-color:white;
+$header-background-color: $highlight-color;
+$header-font-family: Lora;
+$main-color: #FAEBD7;
+$header-color: $main-color;
+$body-background-color: $main-color;
+$body-font-family: Helvetica, Arial, sans-serif;
+$main-background-color: $main-color;
+$anchor-visited-nav: $main-color;
+$anchor-active: #DEB887;
+$anchor-hover: $highlight-color;
+$anchor-visited-p: $highlight-color;
+$figure-max-width: 100%;
+$figure-text-align: center;
+$figure-top: 20px;
+$body-marging: 0px;
+$body-marging-top: 0px;
+$body-marging-bottom: 0px;
+$underline-text-decoration: underline;
+//mixin
+@mixin mediaScreenLarge {
+    margin-right: 30px;
+    text-align: right;
+}
+//mixin
+@mixin decorations {
+    text-decoration: none;
+}
+
+header{
+    background-color: $header-background-color;
+    font-family:$header-font-family ;
+    a{
+        color:$header-color;
+        text-decoration: none;
+        right: 100px;
+        padding: 0px; 
+        @include decorations()
+    }  
+    ul{
+        list-style-type: none;
+    }
+}
+
+body{
+    font-family:$body-font-family;
+    background-color: $body-background-color;
+    margin: $body-marging;
+    margin-top: $body-marging-top;
+    margin-bottom: $body-marging-bottom;
+}
+
+main{
+    background-color:$main-background-color;
+}
+
+nav {
+    li  {
+    padding: 10px;
+    text-align: right;
+    margin-right: 20px;
+    }
+    a:visited{
+        color: $anchor-visited-nav;  
+        @include decorations()  
+    }
+    a:active{
+        color: $anchor-active;
+        }
+    a:hover{    
+        color:$white-color;
+        text-decoration:$underline-text-decoration;
+    }
+}
+
+p {
+    a:visited{
+    color: $anchor-visited-p;
+    @include decorations()
+    }
+    a:active{
+        color: $anchor-active
+    }
+    a:hover {
+        text-decoration:$underline-text-decoration;
+    }    
+}
+
+h2 {
+    
+    a:visited{
+    color: black;
+    @include decorations()
+    }
+    a:active{
+        color: $anchor-active;    
+    }
+    a:hover{
+        color: $anchor-hover;
+        text-decoration: underline;
+    } 
+}
+
+article{
+    background-color: $white-color;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 40px;
+} 
+
+article .post-date{
+    margin-left: 30px;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+figure{
+    max-width: $figure-max-width;    
+    text-align: $figure-text-align;
+    margin-top: $figure-top;
+}
+
+/* sm screen @media */
+@media only screen and (min-width: 551px) {
+    header{
+        width: auto;
+        height: 200px;
+        top:10px;
+        bottom:20px;                        
+    }
+    article{ 
+        margin-top: 40px;    
+        width: 400px; 
+        height: auto; 
+        margin-left: 150px;     
+    } 
+    
+    header h1 {
+        @include mediaScreenLarge;
+    }
+} 
+
+/* lg screen @media*/
+@media only screen and (min-width: 960px) {
+    header{
+        width: 260px;
+        height: 1490px;
+        position:absolute;
+        top:0px;
+        bottom:20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        h1 {
+            margin-top: 0px;
+            @include mediaScreenLarge();
+        }                        
+    }   
+
+   nav li  {
+        padding: 10px;
+        @include mediaScreenLarge()
+   }
+
+    header ul li{
+        font-size: 20px;
+    }
+
+    article{
+        margin: 60px;      
+        position:relative;
+        left:300px;
+        right:340px                   
+    } 
+
+    section{
+        margin: 10px;
+        width: 400px;
+        height: auto;              
+        position:relative;              
+    }     
+}

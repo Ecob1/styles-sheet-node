@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "WDD331/style-guide-template-parcel/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - WDD331/style-guide-template-parcel",
+			"detail": "parcel build src/index.html --public-url ./"
+		}
+	]
+}

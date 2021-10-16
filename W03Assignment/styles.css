@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+header {
+  background-color: #6495ed;
+  font-family: Lora;
+}
+
+header a {
+  color: #faebd7;
+  text-decoration: none;
+  right: 100px;
+  padding: 0;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #faebd7;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main {
+  background-color: #6d604f;
+}
+
+nav li {
+  padding: 10px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+nav a:visited {
+  color: #faebd7;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: #deb887;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+p a:visited {
+  color: #6495ed;
+  text-decoration: none;
+}
+
+p a:active {
+  color: #deb887;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+h2 a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+h2 a:active {
+  color: #58534c;
+}
+
+h2 a:hover {
+  color: #6495ed;
+  text-decoration: underline;
+}
+
+article {
+  background-color: white;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+article .post-date {
+  margin-left: 30px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+figure {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* sm screen @media */
+@media only screen and (min-width: 551px) {
+  header {
+    width: auto;
+    height: 200px;
+    top: 10px;
+    bottom: 20px;
+  }
+
+  article {
+    margin-top: 40px;
+    width: 400px;
+    height: auto;
+    margin-left: 150px;
+  }
+
+  header h1 {
+    margin-right: 30px;
+    text-align: right;
+  }
+}
+
+/* lg screen @media */
+@media only screen and (min-width: 960px) {
+  header {
+    width: 260px;
+    height: 1490px;
+    position: absolute;
+    top: 0;
+    bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  header h1 {
+    margin-top: 0px;
+    margin-right: 30px;
+    text-align: right;
+  }
+
+  nav li {
+    padding: 10px;
+    margin-right: 30px;
+    text-align: right;
+  }
+
+  header ul li {
+    font-size: 20px;
+  }
+
+  article {
+    margin: 60px;
+    position: relative;
+    left: 300px;
+    right: 340px;
+  }
+
+  section {
+    margin: 10px;
+    width: 400px;
+    height: auto;
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

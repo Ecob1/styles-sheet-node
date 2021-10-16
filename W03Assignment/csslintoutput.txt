@@ -1,0 +1,50 @@
+
+styles.css
+   5:16  ×  Unexpected missing generic font family              font-family-no-missing-generic-family-keyword
+   5:20  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  11:13  ×  Unexpected unit                                     length-zero-no-unit                          
+  12:3   ×  Unexpected duplicate "text-decoration"              declaration-block-no-duplicate-properties    
+  22:12  ×  Unexpected unit                                     length-zero-no-unit                          
+  23:16  ×  Unexpected unit                                     length-zero-no-unit                          
+  24:19  ×  Unexpected unit                                     length-zero-no-unit                          
+  28:28  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  33:21  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  36:10  ×  Expected "#FAEBD7" to be "#faebd7"                  color-hex-case                               
+  37:24  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  40:17  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  44:29  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  48:24  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  51:1   ×  Expected indentation of 2 spaces                    indentation                                  
+  51:8   ×  Expected "#DEB887" to be "#deb887"                  color-hex-case                               
+  51:15  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  54:1   ×  Expected indentation of 2 spaces                    indentation                                  
+  54:27  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  58:24  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  61:1   ×  Expected indentation of 2 spaces                    indentation                                  
+  61:16  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  65:29  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  71:16  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  74:20  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  77:20  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  80:16  ×  Unexpected unit                                     length-zero-no-unit                          
+  80:18  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  85:19  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  93:17  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+  99:23  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+ 103:22  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+ 103:24  ×  Unexpected whitespace at end of line                no-eol-whitespace                            
+ 103:25  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+ 105:1   ×  Expected empty line before comment                  comment-empty-line-before                    
+ 111:11  ×  Unexpected unit                                     length-zero-no-unit                          
+ 113:19  ×  Unexpected unit                                     length-zero-no-unit                          
+ 114:20  ×  Unexpected unit                                     length-zero-no-unit                          
+ 114:22  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+ 117:18  ×  Unexpected unit                                     length-zero-no-unit                          
+ 119:22  ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+ 125:4   ×  Expected newline after "}"                          block-closing-brace-newline-after            
+ 125:4   ×  Unexpected whitespace at end of line                no-eol-whitespace                            
+ 142:24  ×  Unexpected whitespace at end of line                no-eol-whitespace                            
+ 143:2   ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before           
+ 143:4   ×  Unexpected whitespace at end of line                no-eol-whitespace                            
+ 143:5   ×  Expected newline before "}" of a multi-line block   block-closing-brace-newline-before
+

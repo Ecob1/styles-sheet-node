@@ -1,0 +1,10 @@
+body {
+  background-color: black; }
+
+#contactform {
+  background-color: antiquewhite; }
+  #contactform input, #contactform textarea {
+    background-color: white;
+    flex: 2; }
+
+/*# sourceMappingURL=stryles.scc.map */
