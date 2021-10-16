@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link
-      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="scss/style-guide.scss" />
+    <link rel="stylesheet" href="/index.HASH_REF_0d8524a15cd50b7f068fb1cefd58574d.css">
     <!-- Resource style -->
-    <script src="js/modernizr.js"></script>
+    <script src="/index.HASH_REF_d1d6d1f9d6c205aa98cd1216aaafe13f.js"></script>
     <!-- Modernizr -->
     <title>Style Guide | CodyHouse</title>
   </head>
   <body>
     <header>
-      <div class="cd-logo"><img src="assets/logo.svg" alt="Logo" /></div>
+      <div class="cd-logo"><img src="/logo.HASH_REF_e9bef47016e29016e411f31c272a18c5.svg" alt="Logo"></div>
 
       <nav>
         <ul class="cd-main-nav">
@@ -33,9 +29,7 @@
         <!-- cd-main-nav -->
       </nav>
 
-      <a href="assets/assets-download-file.zip" class="cd-download"
-        ><span>Download assets</span></a
-      >
+      <a href="/assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
       <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
     </header>
 
@@ -49,7 +43,7 @@
           <p>
             The purpose of this theme is to bring people a feeling of warmth and
             cozyiness with a blend of fall colors alongside imagery that makes
-            you want to grab that warm blanket and a hot chocolate. <br />
+            you want to grab that warm blanket and a hot chocolate. <br>
             We all Love those colors that bring a warm feeling to us all, so
             this theme's goal is to bring that to life in the presentation of
             the site.
@@ -62,22 +56,22 @@
 
         <ul>
           <li class="cd-box">
-            <img src="assets/branding/bg-logo.png" alt="Logo version 1" />
+            <img src="/bg-logo.HASH_REF_c259a8bbb13b65fb51d533655467e0f5.png" alt="Logo version 1">
           </li>
           <li class="cd-box">
-            <img src="assets/branding/noBG-logo.png" alt="Logo version 2" />
+            <img src="/noBG-logo.HASH_REF_4fd8874e3464ba5eade98fe903e56346.png" alt="Logo version 2">
           </li>
         </ul>
 
         <ul>
           <li>
-            <img src="assets/branding/touch-icon-1.jpg" alt="Touch Icon 1" />
+            <img src="/touch-icon-1.HASH_REF_e12ebda1963574d3bfe92694f2c015bb.jpg" alt="Touch Icon 1">
           </li>
           <li>
-            <img src="assets/branding/touch-icon-2.jpg" alt="Touch Icon 2" />
+            <img src="/touch-icon-2.HASH_REF_2d6ce8e8d7e66236180526933c99b21c.jpg" alt="Touch Icon 2">
           </li>
-          <li><img src="assets/branding/favicon-1.jpg" alt="Favicon 1" /></li>
-          <li><img src="assets/branding/favicon-2.jpg" alt="Favicon 2" /></li>
+          <li><img src="/favicon-1.HASH_REF_683b91caa2027178adbbb8a67de86ebc.jpg" alt="Favicon 1"></li>
+          <li><img src="/favicon-2.HASH_REF_5c846f0942b0468ac61e965158cfd2f7.jpg" alt="Favicon 2"></li>
         </ul>
       </section>
 
@@ -144,18 +138,18 @@
         <div class="cd-box">
           <form>
             <fieldset>
-              <input type="text" /> <input class="success" type="text" />
-              <input class="alert" type="text" />
+              <input type="text"> <input class="success" type="text">
+              <input class="alert" type="text">
             </fieldset>
 
             <fieldset>
               <div class="cd-input-wrapper">
-                <input type="radio" name="radioButton" id="radio1" />
+                <input type="radio" name="radioButton" id="radio1">
                 <label class="radio-label" for="radio1">Choice 1</label>
               </div>
 
               <div class="cd-input-wrapper">
-                <input type="checkbox" id="checkbox1" />
+                <input type="checkbox" id="checkbox1">
                 <label class="checkbox-label" for="checkbox1">Option 1</label>
               </div>
 
@@ -180,9 +174,9 @@
               <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Product</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Forums</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#">Four</a></li>
+                <li><a href="#">Five</a></li>
               </ul>
             </nav>
           </div>
@@ -190,11 +184,11 @@
             <h3>Secondary</h3>
             <nav class="cd-secondary-nav">
               <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Join the Community</a></li>
-                <li><a href="#">Social Media</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+                <li><a href="#">Four</a></li>
+                <li><a href="#">Five</a></li>
               </ul>
             </nav>
           </div>
@@ -204,8 +198,8 @@
               <li><a href="#">Contact Us</a></li>
               <li><a href="#">Locations</a></li>
               <li><a href="#">Copy Right Material</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">COVID-19 Information</a></li>
+              <li><a href="#">Four</a></li>
+              <li><a href="#">Five</a></li>
             </ul>
           </div>
         </div>
@@ -225,17 +219,17 @@
         <h2>Wireframes</h2>
         <div class="cd-box">
           <figure>
-            <img src="assets/wireframe-sm.png" alt="Small screen wireframe" />
+            <img src="/wireframe-sm.HASH_REF_e2067c26314a481cfd57eabfd7a0f7c9.png" alt="Small screen wireframe">
             <figcaption>Small screen</figcaption>
           </figure>
           <figure>
-            <img src="assets/wireframe-lg.png" alt="Large screen wireframe" />
+            <img src="/wireframe-lg.HASH_REF_efcc2485cab9c86ab98667e310933be0.png" alt="Large screen wireframe">
             <figcaption>Large screen</figcaption>
           </figure>
         </div>
       </section>
     </main>
 
-    <script src="js/main.js"></script>
+    <script src="/index.HASH_REF_9c44180a18ad66eda0f30d699626f0bb.js"></script>
   </body>
 </html>
