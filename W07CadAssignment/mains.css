@@ -1,0 +1,29 @@
+.card {
+  border: 1px solid grey;
+  height: 28rem;
+  width: 20rem;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 4px grey;
+  background-color: red; }
+
+.card-front {
+  background-color: yellow; }
+
+.icon {
+  width: 2.2222222222rem;
+  height: 2.2222222222rem; }
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%); }
+
+.col-1 {
+  grid-column: 1 /  2;
+  grid-row: 1 / 2;
+  background-color: red; }
+
+.col-2 {
+  background-color: blue; }
+
+/*# sourceMappingURL=mains.css.map */
